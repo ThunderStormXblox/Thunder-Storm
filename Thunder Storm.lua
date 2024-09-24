@@ -1380,7 +1380,7 @@ spawn(function()
 end)
 -------------------------------------------------------------------------------------------------------------------------
 --Tab
-local PadoUi = Update:Window("Min Gaming","",Enum.KeyCode.RightControl);
+local PadoUi = Update:Window("Thunder Storm","",Enum.KeyCode.RightControl);
 local Main = PadoUi:Tab("Main","6026568198")
 local Setting = PadoUi:Tab("Setting","6026568198")
 local Raid = PadoUi:Tab("Raid","6026568198")
@@ -11183,10 +11183,10 @@ end)
 spawn(function()
     pcall(function()
         while wait() do
-            if game.Workspace._WorldOrigin.Locations:FindFirstChild('Mirage Island') then
-                Mirragecheck:Set('🏝️ : Mirage Island is Spawning')
+            if game.Workspace._WorldOrigin.Locations:FindFirstChild('có đảo rồi thg lồn') then
+                Mirragecheck:Set('🏝️ : Mirage Island có rồi múp rụp')
             else
-                Mirragecheck:Set('🏝️ : Mirage Island Not Found ❌')
+                Mirragecheck:Set('🏝️ : Mirage Island đéo có ❌')
             end
         end
     end)
@@ -11232,8 +11232,8 @@ spawn(function()
 end)
 
 
-Race:Seperator("Race V4")
-Race:Button("Teleport To Timple Of Time", function()
+Race:Seperator("tộc V4")
+Race:Button("Teleport đến chỗ úp v4", function()
     Game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(28286.35546875,
         14895.3017578125, 102.62469482421875)
 end)
@@ -11246,7 +11246,7 @@ Race:Button("Teleport To Acient One", function()
     toTarget(CFrame.new(28981.552734375, 14888.4267578125, -120.245849609375))
 end)
 
-Race:Seperator("Door")
+Race:Seperator("cửa")
 
 Race:Button("Teleport Cyborg Door ", function()
     toTarget(CFrame.new(28492.4140625, 14894.4267578125, -422.1100158691406))
@@ -11507,11 +11507,11 @@ end)
 --Misc
 M:Seperator("Team")
 
-M:Button("Join Pirates Team", function()
+M:Button("Join luffy Team", function()
     game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetTeam", "Pirates")
 end)
 
-M:Button("Join Marines Team", function()
+M:Button("Join đô đốc Team", function()
     game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("SetTeam", "Marines")
 end)
 
