@@ -93,14 +93,14 @@ function Update:Window(text,logo,keybind)
 	TCNR.Name = "TCNR"
 	TCNR.Parent = Top
 
-	local Logo = Instance.new("ImageLabel")
+	local Logo = Instance.new("https://cdn.bestme.vn/images/bestme/anime-toc-xanh-duong-nu-girl-14.jpg")
 	Logo.Name = "Logo"
 	Logo.Parent = Top
 	Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 	Logo.BackgroundTransparency = 1.000
 	Logo.Position = UDim2.new(0, 10, 0, 1)
 	Logo.Size = UDim2.new(0, 25, 0, 25)
-	Logo.Image = "rbxassetid://128981291903589"
+	Logo.Image = "https://cdn.bestme.vn/images/bestme/anime-toc-xanh-duong-nu-girl-14.jpg"
 
 	local Name = Instance.new("TextLabel")
 	Name.Name = "Name"
@@ -122,7 +122,7 @@ function Update:Window(text,logo,keybind)
 	Hub.Position = UDim2.new(0, 086, 0, 0)
 	Hub.Size = UDim2.new(0, 81, 0, 27)
 	Hub.Font = Enum.Font.GothamSemibold
-	Hub.Text = "       Premium"
+	Hub.Text = "       lỏ"
 	Hub.TextColor3 = Color3.fromRGB(255, 20, 0)
 	Hub.TextSize = 17.000
 	Hub.TextXAlignment = Enum.TextXAlignment.Left
@@ -11184,7 +11184,7 @@ spawn(function()
     pcall(function()
         while wait() do
             if game.Workspace._WorldOrigin.Locations:FindFirstChild('có đảo rồi thg lồn') then
-                Mirragecheck:Set('🏝️ : Mirage Island có rồi múp rụp')
+                Mirragecheck:Set('🏝️ : Mirage Island múp rụp')
             else
                 Mirragecheck:Set('🏝️ : Mirage Island đéo có ❌')
             end
@@ -11252,7 +11252,7 @@ Race:Button("Teleport Cyborg Door ", function()
     toTarget(CFrame.new(28492.4140625, 14894.4267578125, -422.1100158691406))
 end)
 
-Race:Button("Teleport Fish Door ", function()
+Race:Button("Teleport cá mập Door ", function()
     toTarget(CFrame.new(28224.056640625, 14889.4267578125, -210.5872039794922))
 end)
 
@@ -11264,11 +11264,11 @@ Race:Button("Teleport Human Door ", function()
     toTarget(CFrame.new(29237.294921875, 14889.4267578125, -206.94955444335938))
 end)
 
-Race:Button("Teleport Mink Door ", function()
+Race:Button("Teleport thỏ cute cửa ", function()
     toTarget(CFrame.new(29020.66015625, 14889.4267578125, -379.2682800292969))
 end)
 
-Race:Button("Teleport Sky Door ", function()
+Race:Button("Teleport Sky lỏ Door ", function()
     toTarget(CFrame.new(28967.408203125, 14918.0751953125, 234.31198120117188))
 end)
 
